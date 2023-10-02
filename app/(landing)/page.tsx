@@ -5,7 +5,7 @@ export default function LandingPage() {
     return(
         <div>
             Landing Page (Unprotected)
-            <div>
+            <div className="flex gap-x-5">
                 <Link href="/sign-in">
                     <Button>Login</Button>
                 </Link>
